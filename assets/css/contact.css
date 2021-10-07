@@ -1,0 +1,110 @@
+.header-slider-contact {
+    background: url(/assets/image/parallax-2-1.jpg) top center / cover no-repeat;
+    height: 50vh;
+    background-position: 50% 100%;
+}
+
+.content-contact {
+    margin: 64px 0 84px 0;
+}
+
+.content-contact__comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-contact__comment--heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(78, 78, 78);
+}
+
+.content-contact__comment--descr {
+    line-height: 28px;
+    color: rgb(129, 129, 129);
+    margin-bottom: 28px;
+}
+
+.content-contact__comment--massage,
+.content-contact__comment--email,
+.content-contact__comment--name {
+    color: rgb(129, 129, 129);
+    margin-bottom: 12px;
+}
+
+.content-contact__comment--name-content {
+    height: 48px;
+    border-radius: 20px;
+    opacity: none;
+    outline: none;
+    padding:0 20px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 16px;
+}
+
+.content-contact__comment--email-content {
+    height: 48px;
+    border-radius: 20px;
+    opacity: none;
+    outline: none;
+    padding:0 20px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 16px;
+}
+
+.content-contact__comment--massage-content {
+    height: 128px;
+    border-radius: 20px;
+    opacity: none;
+    outline: none;
+    line-height: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 16px;
+}
+
+.content-contact__comment--btn {
+    display:inline-block;
+    padding: 14px 50px;
+    width: 200px;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: #14b9d5;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.content-contact__map-link {
+    width: 100%;
+    height: 280px;
+    border: none;
+}
+
+.content-contact__map-location-add {
+    padding: 12px 8px;
+    border-bottom: 1px solid #f9f9f9;
+    color: rgb(90, 90, 90);
+    display: flex;
+}
+
+.content-contact__map-location-add:last-child {
+    border-bottom: none;
+}
+
+.content-contact__map-location-add-detail {
+    color: rgb(153, 153, 153);
+    margin-left: auto;
+}
+
+.content-contact__map-location-time {
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    margin-bottom: 12px;
+}
+
+.content-contact__map-location-quantity {
+    font-size: 64px;
+    color: rgb(85, 85, 85);
+}

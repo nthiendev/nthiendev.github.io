@@ -1,0 +1,280 @@
+/* mobile & tablet  */
+@media (max-width: 1023px) {
+    .header__navbar {
+        display: none;
+    }
+
+    .slider__search {
+        width: 100%;
+    }
+
+    .header-with-icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-place__item-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .item {
+        width: 100%;
+        height: 100%;
+    }
+
+    .next-holiday {
+        padding-top: 60%;
+    }
+
+    .next-holiday__item {
+        top: 30%;
+        flex-direction: column;
+    }
+
+    .north-america__description {
+        margin-bottom: 40px;
+    }
+
+    .footer-header {
+        flex-direction: column;
+    }
+
+    .footer-header__title {
+        text-align: center;
+    }
+
+    .footer-header__boxsearch {
+        width: 100%;
+    }
+
+    .footer-header__search-btn {
+        width:100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-footer-copyright {
+        margin-top: 8px;
+    }
+
+    .about-content-title {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .about-content-descr {
+        text-align: center;
+    }
+
+    .about-content-member-topic {
+        left: 0;
+    }
+
+    .member {
+        height: auto;
+    }
+
+    .about-content-member-list {
+        position: relative;
+    }
+
+    .about-content-member-list-item {
+        margin-top: 24px;
+    }
+
+    .about-content-destination-subheading {
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .bout-content-destination-heading {
+        text-align: center;
+    }
+
+    .content-contact__map {
+        margin-top: 32px;
+    }
+
+    .header__menu-icon {
+        display: none;
+    }
+
+    .header__nav-item {
+        display: block;
+    }
+
+    .header__subnav-link-c {
+        border-bottom: none;
+    }
+
+    .header__subnavmenu-1,
+    .header__subnavmenu-2,
+    .header__subnavmenu-3,
+    .header__subnavmenu,
+    .header__subnav {
+        width: 180px;
+        left: 0;
+        top: 100%;
+        list-style: none;
+        display: block;
+        background-color: rgb(37, 37, 37);
+        position: relative;
+        box-shadow: none;
+    }
+
+    .header__nav-item:nth-child(8) {
+        background-color:rgb(37, 37, 37);
+    }
+
+    .tour-map-gallery-2 {
+        margin-top: 40px;
+    }
+
+    .tour-map-gallery-4 {
+        margin-top: 40px;
+        height: 50vh;
+    }
+}
+
+/* mobile  */
+@media (max-width:740px){
+    .header-with-search {
+        height: 100%;
+        padding-top: 32%;
+
+    }
+    .header-with-icon_1 {
+        margin-top: 16px;
+    }
+
+    .north-america__img {
+        background: none;
+        padding: 0;
+    }
+
+    .north-america__img-item {
+        width: 100%;
+    }
+
+    .north-america__time {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .north-america__time-item-detail::after {
+        display: none;
+    }
+
+    .discover__img-cities {
+        padding-top: 50%;
+    }
+
+    .discover__img-nature {
+        padding-top: 50%;
+    }
+
+    .footer {
+        height: 200vh;
+    }
+
+    .content-new-item {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .content-new-item-img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .content-new-item-description {
+        width: 100%;height: 40%;
+    }
+
+    .about-content-video {
+        width: 100%;
+        height: 212px;
+    }
+
+    .about-content-video-item {
+       width: 100%;
+       height: 212px;
+    }
+
+    .about-content-destination-quantity {
+        flex-direction: column;
+    }
+
+    .about-content-destination-quantity {
+        height: 100vh;
+    }
+
+    .content-new-item_1, .content-new-item_2, .content-new-item_3, .content-new-item_4 {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+@media (min-width:740px) and (max-width:1023px) {
+    .header-with-icon_1 {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .north-america__img-item {
+        display: none;
+    }
+
+    .mt-56 {
+        margin-top: 132px;
+    }
+
+    .discover__img-cities {
+        padding-top: 40%;
+    }
+
+    .discover__img-nature {
+        padding-top: 40%;
+    }
+
+    .footer {
+        height: 128vh;
+    }
+
+    .about-content-video {
+        width: 100%;
+        height: 400px;
+    }
+
+    .about-content-video-item {
+       width: 100%;
+       height: 400px;
+    }
+
+
+    .about-content-member-list {
+        top:0;
+    }
+}
+
+@media (min-width:1024px) {
+    .header-with-icon_1 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .north-america__img-item {
+        display: none;
+    }
+
+    .header__menu-icon-mobile {
+        display: none;
+    }
+}

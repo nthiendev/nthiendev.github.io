@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+:root {
+    --header-height:104px;
+    --white-color:#fff;
+    --text-color:rgb(56, 55, 55);
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}

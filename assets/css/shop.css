@@ -1,0 +1,46 @@
+.header-slider-shop {
+    background: url('/assets/image/parallax-4-1\ \(1\).jpg')top / cover no-repeat;
+    height: 50vh;
+    background-position: center center;
+}
+
+.content-shop {
+    margin: 32px 0; 
+}
+
+.content-shop__img {
+    width: 100%;
+}
+
+.content-shop-item {
+    padding: 8px 0;
+}
+
+.content-shop-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(39, 39, 39);
+    margin: 8px 0;
+}
+
+.content-shop-rating {
+    transform: scale(0.8);
+    transform-origin: left;
+    margin-bottom: 20px;
+    color: rgb(70, 70, 70);
+}
+
+.content-shop-prices {
+    margin-bottom: 16px;
+    color: rgb(70, 70, 70);
+
+}
+
+.content-shop-select {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    display: inline-block;
+    padding:8px 20px ;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,280 @@
+.header-slider-package {
+    background: url('/assets/image/parrallax-15.jpg') top / cover no-repeat;
+    height: 50vh;
+    background-position: 0 50%;
+    position: relative;
+}
+
+.header-slider-heading {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+
+.header-slider-title {
+    color: var(--white-color);
+    letter-spacing: 2px;
+}
+
+.header-slider-subtitle {
+    color: var(--white-color);
+    font-size: 14px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.header-slider-subtitle-time {
+    margin-left: 40px;
+}
+
+.header-slider-subtitle-img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.content-package {
+    margin-top: 40px;
+}
+
+.content-package-item {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-package-heading-item {
+    margin-left: 20px; 
+}
+
+.content-package-heading-img {
+    width: 40px;
+}
+
+.content-package-heading-require {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.content-package-heading-require-title {
+    font-size: 14px;
+    color: rgb(151, 150, 150);
+}
+
+.content-package-item-red {
+    color: var(--white-color);
+    padding: auto;
+    background-color: #f76570;
+    padding: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.content-package-heading-require-quantity {
+    background-color: #f76570;
+    padding: 2px 12px;
+    border-radius: 10px;
+    color: var(--white-color);
+}
+
+.slider-package {
+    height: 70vh;
+    width: 54%;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.slider-package-img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in
+}
+
+.slider-packege-slides {
+    top: 90%;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+   
+}
+
+.slider-package-radio {
+    border: 2px solid #ddd;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.slider-package-radio:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .slider-package-img.first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .slider-package-img.first {
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .slider-package-img.first {
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .slider-package-img.first {
+    margin-left: -300%;
+}
+
+.slider-package-radio:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+.overplay {
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slider-package-item {
+    position: absolute;
+    bottom: 52px;
+    width: 100%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.slider-package-heading {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.slider-package-descr {
+    margin-top: 16px;
+    letter-spacing: 2px;
+}
+
+.tour-map {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tour-map-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-map-nav-item {
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+    padding: 8px 20px;
+    border-radius: 16px;
+}
+
+.tour-map-nav-item-active {
+    background-color: #f76570;
+    color: var(--white-color);
+}
+
+.tour-map-nav-item:hover {
+    background-color: #f76570;
+    color: var(--white-color);
+}
+
+.tour-map-heading { 
+    color: rgb(71, 71, 71);
+    margin-top: 28px;
+}
+
+.tour-map-descrip {
+    color: rgb(129, 129, 129);
+    margin-top: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.tour-map-list {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.tour-map-list-left {
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tour-map-list-right {
+    color: rgb(122, 122, 122);
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.tour-map-list-right-icon-close {
+    font-size: 12px;
+    color: rgb(228, 22, 56);
+    margin-right: 8px;
+}
+
+.tour-map-list-right-icon-check {
+    font-size: 12px;
+    color: rgb(0, 255, 157);
+    margin-right: 8px;
+}
+
+.tour-map-title {
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: rgb(78, 78, 78);
+    margin-bottom: 36px;
+}
+
+.tour-map-map {
+    height: 588px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.tour-map-map-detail {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.tour-map-gallery-1 {
+    background: url('/assets/image/pack-slide-4.jpg') center / cover no-repeat;
+    height: 50vh;
+    display: block;
+}
+
+.tour-map-gallery-2 {
+    background: url('/assets/image/pack-slide-1.jpg') center / cover no-repeat;
+    height: 50vh;
+    display: block;
+}
+
+.tour-map-gallery-3 {
+    background: url('/assets/image/pk-sm-1.jpg') center / cover no-repeat;
+    height: 50vh;
+    margin-top: 40px;
+    display: block;
+}
+
+.tour-map-gallery-4 {
+    background: url('/assets/image/pk-sm-2.jpg') center / cover no-repeat;
+    height: 107vh;
+    display: block;
+}
+
+
+
+
+
